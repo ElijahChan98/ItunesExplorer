@@ -16,7 +16,7 @@ class ItunesListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Results from 'star'"
         self.viewModel = ItunesListViewModel()
         viewModel.delegate = self
         viewModel.fetchItunesList()

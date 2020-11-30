@@ -17,7 +17,7 @@ class ItunesListViewModel {
         RequestManager.shared.fetchItunesList { (success, response) in
             if success, let results = response?["results"] as? [[String: Any]] {
                 for result in results {
-                    if let media = ItunesMedia().createItunesMediaFromPayload(result) {
+                    if let media = ItunesMedia.createItunesMediaFromPayload(result) {
                         self.itunesMedias.append(media)
                     }
                 }
