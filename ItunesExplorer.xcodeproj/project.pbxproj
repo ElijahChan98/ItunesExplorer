@@ -15,6 +15,18 @@
 		5D675070257390D700B3F0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D67506F257390D700B3F0BC /* Assets.xcassets */; };
 		5D675073257390D700B3F0BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D675071257390D700B3F0BC /* LaunchScreen.storyboard */; };
 		5D67507E257390D700B3F0BC /* ItunesExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67507D257390D700B3F0BC /* ItunesExplorerTests.swift */; };
+		5D6750902573AFF300B3F0BC /* ItunesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67508E2573AFF300B3F0BC /* ItunesListViewController.swift */; };
+		5D6750912573AFF300B3F0BC /* ItunesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D67508F2573AFF300B3F0BC /* ItunesListViewController.xib */; };
+		5D6750932573B0BD00B3F0BC /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6750922573B0BD00B3F0BC /* RequestManager.swift */; };
+		5D6750952573B47600B3F0BC /* ItunesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6750942573B47600B3F0BC /* ItunesListViewModel.swift */; };
+		5D6750972573B6AE00B3F0BC /* ItunesMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6750962573B6AE00B3F0BC /* ItunesMedia.swift */; };
+		5D67509A2573BE4400B3F0BC /* ItunesMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6750982573BE4400B3F0BC /* ItunesMediaCell.swift */; };
+		5D67509B2573BE4400B3F0BC /* ItunesMediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D6750992573BE4400B3F0BC /* ItunesMediaCell.xib */; };
+		5D67509D2573C0D900B3F0BC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67509C2573C0D900B3F0BC /* ImageLoader.swift */; };
+		5D6750A02574AE0D00B3F0BC /* ItunesMediaProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67509E2574AE0D00B3F0BC /* ItunesMediaProfileViewController.swift */; };
+		5D6750A12574AE0D00B3F0BC /* ItunesMediaProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D67509F2574AE0D00B3F0BC /* ItunesMediaProfileViewController.xib */; };
+		5D6750A32574B5BF00B3F0BC /* ItunesMediaProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6750A22574B5BF00B3F0BC /* ItunesMediaProfileViewModel.swift */; };
+		5D6750A52574C1CF00B3F0BC /* ItunesMediaPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6750A42574C1CF00B3F0BC /* ItunesMediaPersistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,18 @@
 		5D675079257390D700B3F0BC /* ItunesExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItunesExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D67507D257390D700B3F0BC /* ItunesExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesExplorerTests.swift; sourceTree = "<group>"; };
 		5D67507F257390D700B3F0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D67508E2573AFF300B3F0BC /* ItunesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesListViewController.swift; sourceTree = "<group>"; };
+		5D67508F2573AFF300B3F0BC /* ItunesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItunesListViewController.xib; sourceTree = "<group>"; };
+		5D6750922573B0BD00B3F0BC /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		5D6750942573B47600B3F0BC /* ItunesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesListViewModel.swift; sourceTree = "<group>"; };
+		5D6750962573B6AE00B3F0BC /* ItunesMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMedia.swift; sourceTree = "<group>"; };
+		5D6750982573BE4400B3F0BC /* ItunesMediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMediaCell.swift; sourceTree = "<group>"; };
+		5D6750992573BE4400B3F0BC /* ItunesMediaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItunesMediaCell.xib; sourceTree = "<group>"; };
+		5D67509C2573C0D900B3F0BC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		5D67509E2574AE0D00B3F0BC /* ItunesMediaProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMediaProfileViewController.swift; sourceTree = "<group>"; };
+		5D67509F2574AE0D00B3F0BC /* ItunesMediaProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItunesMediaProfileViewController.xib; sourceTree = "<group>"; };
+		5D6750A22574B5BF00B3F0BC /* ItunesMediaProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMediaProfileViewModel.swift; sourceTree = "<group>"; };
+		5D6750A42574C1CF00B3F0BC /* ItunesMediaPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMediaPersistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +105,13 @@
 		5D675062257390D200B3F0BC /* ItunesExplorer */ = {
 			isa = PBXGroup;
 			children = (
-				5D675063257390D200B3F0BC /* AppDelegate.swift */,
-				5D675065257390D200B3F0BC /* SceneDelegate.swift */,
-				5D675067257390D200B3F0BC /* ViewController.swift */,
+				5D67508D2573AFBC00B3F0BC /* View */,
+				5D67508C2573AFB200B3F0BC /* ViewController */,
+				5D67508B2573AFAC00B3F0BC /* ViewModel */,
+				5D67508A2573AFA600B3F0BC /* Model */,
+				5D6750892573AF9500B3F0BC /* Manager */,
+				5D6750882573AF7B00B3F0BC /* Supporting Items */,
 				5D675069257390D200B3F0BC /* Main.storyboard */,
-				5D67506F257390D700B3F0BC /* Assets.xcassets */,
-				5D675071257390D700B3F0BC /* LaunchScreen.storyboard */,
 				5D675074257390D700B3F0BC /* Info.plist */,
 				5D67506C257390D200B3F0BC /* ItunesExplorer.xcdatamodeld */,
 			);
@@ -100,6 +125,65 @@
 				5D67507F257390D700B3F0BC /* Info.plist */,
 			);
 			path = ItunesExplorerTests;
+			sourceTree = "<group>";
+		};
+		5D6750882573AF7B00B3F0BC /* Supporting Items */ = {
+			isa = PBXGroup;
+			children = (
+				5D675063257390D200B3F0BC /* AppDelegate.swift */,
+				5D675065257390D200B3F0BC /* SceneDelegate.swift */,
+				5D675067257390D200B3F0BC /* ViewController.swift */,
+				5D67506F257390D700B3F0BC /* Assets.xcassets */,
+				5D675071257390D700B3F0BC /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Items";
+			sourceTree = "<group>";
+		};
+		5D6750892573AF9500B3F0BC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5D6750922573B0BD00B3F0BC /* RequestManager.swift */,
+				5D67509C2573C0D900B3F0BC /* ImageLoader.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5D67508A2573AFA600B3F0BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D6750962573B6AE00B3F0BC /* ItunesMedia.swift */,
+				5D6750A42574C1CF00B3F0BC /* ItunesMediaPersistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D67508B2573AFAC00B3F0BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D6750942573B47600B3F0BC /* ItunesListViewModel.swift */,
+				5D6750A22574B5BF00B3F0BC /* ItunesMediaProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D67508C2573AFB200B3F0BC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D67509E2574AE0D00B3F0BC /* ItunesMediaProfileViewController.swift */,
+				5D67508E2573AFF300B3F0BC /* ItunesListViewController.swift */,
+				5D6750982573BE4400B3F0BC /* ItunesMediaCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D67508D2573AFBC00B3F0BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D67508F2573AFF300B3F0BC /* ItunesListViewController.xib */,
+				5D6750992573BE4400B3F0BC /* ItunesMediaCell.xib */,
+				5D67509F2574AE0D00B3F0BC /* ItunesMediaProfileViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6750912573AFF300B3F0BC /* ItunesListViewController.xib in Resources */,
 				5D675073257390D700B3F0BC /* LaunchScreen.storyboard in Resources */,
+				5D67509B2573BE4400B3F0BC /* ItunesMediaCell.xib in Resources */,
+				5D6750A12574AE0D00B3F0BC /* ItunesMediaProfileViewController.xib in Resources */,
 				5D675070257390D700B3F0BC /* Assets.xcassets in Resources */,
 				5D67506B257390D200B3F0BC /* Main.storyboard in Resources */,
 			);
@@ -204,7 +291,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D67506E257390D200B3F0BC /* ItunesExplorer.xcdatamodeld in Sources */,
+				5D67509A2573BE4400B3F0BC /* ItunesMediaCell.swift in Sources */,
+				5D6750A02574AE0D00B3F0BC /* ItunesMediaProfileViewController.swift in Sources */,
+				5D6750A32574B5BF00B3F0BC /* ItunesMediaProfileViewModel.swift in Sources */,
+				5D67509D2573C0D900B3F0BC /* ImageLoader.swift in Sources */,
+				5D6750952573B47600B3F0BC /* ItunesListViewModel.swift in Sources */,
 				5D675068257390D200B3F0BC /* ViewController.swift in Sources */,
+				5D6750902573AFF300B3F0BC /* ItunesListViewController.swift in Sources */,
+				5D6750972573B6AE00B3F0BC /* ItunesMedia.swift in Sources */,
+				5D6750A52574C1CF00B3F0BC /* ItunesMediaPersistence.swift in Sources */,
+				5D6750932573B0BD00B3F0BC /* RequestManager.swift in Sources */,
 				5D675064257390D200B3F0BC /* AppDelegate.swift in Sources */,
 				5D675066257390D200B3F0BC /* SceneDelegate.swift in Sources */,
 			);
